@@ -1,0 +1,15 @@
+services:
+  memory-bound:
+    image: csabrina/ramdex-api:1.0
+    container_name: memory-bound-grupo11
+    restart: unless-stopped
+    ports:
+      - "8081:8080"
+    volumes:
+      - type: bind
+        source: /mnt/poi-grupo11/memory-bound/logs
+        target: /logs
+    deploy:
+      resources:
+        limits:
+          memory: 800M
