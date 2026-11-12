@@ -13,4 +13,4 @@ para as três.
 | ----------------- | ------------ | ------------------------------------------------------------------------- | -------------------------------- |
 | Image Restoration | CPU-bound    | [image-restoration](https://github.com/poi-ufcg-2026-2/image-restoration) | `rayanne9/image-restoration:1.0` |
 | RAMdex API        | Memory-bound | [ramdex-api](https://github.com/poi-ufcg-2026-2/ramdex-api)               | `csabrina/ramdex-api`            |
-| ByteSum API       | I/O-bound    | [bytesum-api](https://github.com/poi-ufcg-2026-2/bytesum-api)             | `<usuario>/bytesum-api`          |
+| ByteSum API       | I/O-bound    | [bytesum-api](https://github.com/poi-ufcg-2026-2/bytesum-api)             | `<marciathais>/bytesum-api`          |

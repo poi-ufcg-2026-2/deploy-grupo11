@@ -32,3 +32,22 @@ services:
       resources:
         limits:
           memory: 800M
+
+  io-bound:
+    image: marciathais/bytesum-api:1.0
+    container_name: io-bound-grupo11
+    restart: unless-stopped
+    ports:
+      - "8082:8082"
+    environment:
+      PORT: "8082"
+      WORKERS: "1"
+      THREAD_LIMIT: "8"
+    volumes:
+      - type: bind
+        source: /mnt/poi-grupo11/io-bound/logs
+        target: /logs
+    deploy:
+      resources:
+        limits:
+          memory: 256M
